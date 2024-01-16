@@ -3,7 +3,10 @@
 <main class="container">
   {% if part %}
   <div>
-    <h2>{{part.name}}</h2>
+    <h1>{{part.name}}</h1
+    {% if part.image %}>
+    <img src="/img/{{part.image}}" alt="{{part.name}}">
+    {% endif %}
     <p>{{part.text}}</p>
     <ul>
       {% for option in part.options %}

@@ -2,44 +2,1136 @@
   "parts": [
     {
       "id": 0,
-      "name": "Part 1",
-      "text": "This is part 1",
+      "name": "Wellcome [PLAYER] to Eldoria",
+      "text": "As the sun sets over the mysterious land of Eldoria, you, [Your Character Name], find yourself drawn to an ancient, hidden portal in the heart of your town. Whispers of an unimaginable adventure surround this enigmatic gateway, and the townspeople speak of untold wonders that await beyond. Curiosity takes hold, and you decide to step through the portal, uncertain of what lies ahead. The air shimmers with magic as you emerge into a realm where the rules of reality seem to bend and twist. Your most amazing adventure is about to unfold, and the secrets of Eldoria are yours to discover. What path will you choose in this realm of mystery and magic?",
       "options": [
         {
           "id": 0,
-          "text": "This takes you to part 2",
+          "text": "Delve deeper into the enchanted forest.",
           "target": 1
         },
         {
           "id": 1,
-          "text": "This takes you to part 3",
+          "text": "Proceed along the path to the mystical creatures.",
           "target": 2
         }
       ]
     },
+    
+{
+  "id": 1,
+  "name": "Forest Exploration",
+  "text": "You decide to delve deeper into the enchanted forest, hoping to uncover the secrets it holds. The path is lined with bioluminescent plants, casting an ethereal glow. Suddenly, you hear a rustle in the bushes. Do you:",
+  "image": "forest.jpg",
+  "options": [
     {
-      "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
-      "options": [
-        {
-          "id": 2,
-          "text": "Go back to start",
-          "target": 0
-        }
-      ]
+      "id": 0,
+      "text": "Investigate the noise.",
+      "target": 3
     },
     {
-      "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
-      "options": [
-        {
-          "id": 4,
-          "text": "Go back to part 2",
-          "target": 1
-        }
-      ]
+      "id": 1,
+      "text": "Continue walking cautiously.",
+      "target": 4
     }
+  ]
+},
+{
+  "id": 2,
+  "name": "Mystical Creatures",
+  "text": "As you proceed along the path, you encounter a clearing where mystical creatures gather. Unicorns graze peacefully, and fairies flit about, leaving trails of sparkling dust. Do you:",
+  "image": "unicorn.jpg",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the unicorns.",
+      "target": 5
+    },
+    {
+      "id": 1,
+      "text": "Interact with the fairies.",
+      "target": 6
+    }
+  ]
+}, 
+{
+  "id": 3,
+  "name": "Rustling in the Bushes",
+  "text": "You cautiously approach the source of the noise and discover a playful woodland creature. It seems to lead you deeper into the forest. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the creature.",
+      "target": 7
+    },
+    {
+      "id": 1,
+      "text": "Thank the creature and continue on your own.",
+      "target": 8
+    }
+  ]
+},
+{
+  "id": 4,
+  "name": "Continuing Cautiously",
+  "text": "You decide to continue walking cautiously along the path. The forest becomes denser, and you notice ancient symbols on the trees. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Study the symbols.",
+      "target": 9
+    },
+    {
+      "id": 1,
+      "text": "Keep moving forward without investigating.",
+      "target": 10
+    }
+  ]
+},{
+  "id": 5,
+  "name": "Approaching the Unicorns",
+  "text": "You approach the unicorns cautiously. They seem to sense your presence and nod in acknowledgment. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Attempt to ride one of the unicorns.",
+      "target": 11
+    },
+    {
+      "id": 1,
+      "text": "Observe the unicorns from a distance.",
+      "target": 12
+    }
+  ]
+},
+
+{
+  "id": 6,
+  "name": "Interacting with Fairies",
+  "text": "You decide to interact with the fairies. They greet you warmly and offer to guide you through the mystical realm. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Accept their guidance.",
+      "target": 13
+    },
+    {
+      "id": 1,
+      "text": "Politely decline and explore on your own.",
+      "target": 14
+    }
+  ]
+},
+{
+  "id": 7,
+  "name": "Following the Woodland Creature",
+  "text": "You follow the playful creature deeper into the forest. It leads you to a hidden grove with a magical pool. The water reflects visions of possible futures. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Gaze into the pool to see a glimpse of your future.",
+      "target": 15
+    },
+    {
+      "id": 1,
+      "text": "Thank the creature and explore the grove on your own.",
+      "target": 16
+    }
+  ]
+},
+
+{
+  "id": 8,
+  "name": "Continuing Alone",
+  "text": "You decide to thank the creature and continue on your own path. The forest becomes denser, and you come across a mysterious stone archway. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Walk through the stone archway.",
+      "target": 17
+    },
+    {
+      "id": 1,
+      "text": "Bypass the archway and explore the surroundings.",
+      "target": 18
+    }
+  ]
+},
+
+{
+  "id": 9,
+  "name": "Studying the Symbols",
+  "text": "You take a moment to study the ancient symbols on the trees. They seem to form a map of the forest. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the symbol-marked path.",
+      "target": 19
+    },
+    {
+      "id": 1,
+      "text": "Continue on the current path without following the symbols.",
+      "target": 20
+    }
+  ]
+},
+
+{
+  "id": 10,
+  "name": "Moving Forward",
+  "text": "You decide to keep moving forward without investigating the symbols. The forest becomes thicker, and you stumble upon a hidden cave entrance. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the cave.",
+      "target": 21
+    },
+    {
+      "id": 1,
+      "text": "Bypass the cave and continue on the path.",
+      "target": 22
+    }
+  ]
+},
+
+{
+  "id": 11,
+  "name": "Attempting to Ride a Unicorn",
+  "text": "You attempt to ride one of the unicorns. It allows you to climb onto its back, and together, you explore the forest at a magical pace. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ride further into the unknown.",
+      "target": 23
+    },
+    {
+      "id": 1,
+      "text": "Dismount and explore the area on foot.",
+      "target": 24
+    }
+  ]
+},
+
+{
+  "id": 12,
+  "name": "Observing Unicorns",
+  "text": "You decide to observe the unicorns from a distance. They seem to be guarding something in the center of the clearing. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the center of the clearing.",
+      "target": 25
+    },
+    {
+      "id": 1,
+      "text": "Explore the surroundings without disturbing the unicorns.",
+      "target": 26
+    }
+  ]
+},
+
+{
+  "id": 13,
+  "name": "Accepting Fairy Guidance",
+  "text": "You accept the fairies' guidance. They lead you to a magical gateway that allows you to travel instantly to different parts of Eldoria. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Choose a destination and step through the gateway.",
+      "target": 27
+    },
+    {
+      "id": 1,
+      "text": "Express gratitude and explore the immediate surroundings.",
+      "target": 28
+    }
+  ]
+},
+
+{
+  "id": 14,
+  "name": "Exploring on Your Own",
+  "text": "You politely decline the fairies' guidance and explore the mystical realm on your own. The path leads you to a clearing with ancient stones that resonate with power. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch the ancient stones.",
+      "target": 29
+    },
+    {
+      "id": 1,
+      "text": "Circle around the stones and continue exploring.",
+      "target": 30
+    }
+  ]
+},
+{
+  "id": 15,
+  "name": "Gazing into the Future",
+  "text": "As you gaze into the magical pool, you see glimpses of your future. Some visions are joyful, while others are filled with challenges. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Embrace the challenges and prepare for the journey.",
+      "target": 31
+    },
+    {
+      "id": 1,
+      "text": "Shake off the visions and continue exploring the grove.",
+      "target": 32
+    }
+  ]
+},
+
+{
+  "id": 16,
+  "name": "Exploring the Grove",
+  "text": "You thank the creature for its guidance and explore the hidden grove on your own. In the center, you find a mystical flower. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Pick the mystical flower.",
+      "target": 33
+    },
+    {
+      "id": 1,
+      "text": "Leave the flower undisturbed and continue exploring.",
+      "target": 34
+    }
+  ]
+},
+
+{
+  "id": 17,
+  "name": "Walking through the Stone Archway",
+  "text": "You decide to walk through the stone archway. As you pass through, you feel a surge of magical energy. On the other side, you find yourself in a different part of the forest. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Explore this new area.",
+      "target": 35
+    },
+    {
+      "id": 1,
+      "text": "Try to find your way back to the original path.",
+      "target": 36
+    }
+  ]
+},
+
+{
+  "id": 18,
+  "name": "Bypassing the Archway",
+  "text": "You decide to bypass the stone archway and explore the surroundings. The path leads you to a mystical waterfall. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the waterfall.",
+      "target": 37
+    },
+    {
+      "id": 1,
+      "text": "Continue along the path without approaching the waterfall.",
+      "target": 38
+    }
+  ]
+}
+,
+{
+  "id": 19,
+  "name": "Following the Symbol-Marked Path",
+  "text": "You choose to follow the symbol-marked path. It leads you to a hidden cave entrance. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the cave.",
+      "target": 39
+    },
+    {
+      "id": 1,
+      "text": "Explore the area around the cave entrance.",
+      "target": 40
+    }
+  ]
+},
+
+{
+  "id": 20,
+  "name": "Ignoring the Symbols",
+  "text": "You decide to continue on the current path without following the symbols. The path becomes more challenging, and you encounter a rickety bridge. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Cross the bridge carefully.",
+      "target": 41
+    },
+    {
+      "id": 1,
+      "text": "Find an alternative route around the bridge.",
+      "target": 42
+    }
+  ]
+},
+
+{
+  "id": 21,
+  "name": "Entering the Cave",
+  "text": "You decide to enter the hidden cave. Inside, you find ancient carvings on the walls and a passage leading deeper underground. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Explore the underground passage.",
+      "target": 43
+    },
+    {
+      "id": 1,
+      "text": "Exit the cave and continue along the path.",
+      "target": 44
+    }
+  ]
+},
+
+{
+  "id": 22,
+  "name": "Bypassing the Cave",
+  "text": "You choose to bypass the cave and continue on the path. The forest becomes eerily silent, and you discover a magical pool surrounded by ancient stones. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the magical pool.",
+      "target": 45
+    },
+    {
+      "id": 1,
+      "text": "Circle around the pool and explore the surroundings.",
+      "target": 46
+    }
+  ]
+},
+{
+  "id": 23,
+  "name": "Riding Further into the Unknown",
+  "text": "You decide to ride further into the unknown on the unicorn's back. The forest opens up, revealing a hidden meadow with a mysterious structure in the center. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the mysterious structure.",
+      "target": 47
+    },
+    {
+      "id": 1,
+      "text": "Explore the meadow without approaching the structure.",
+      "target": 48
+    }
+  ]
+},
+
+{
+  "id": 24,
+  "name": "Dismounting and Exploring on Foot",
+  "text": "You decide to dismount and explore the area on foot. The unicorns graze peacefully nearby. In the distance, you see a glowing portal. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the glowing portal.",
+      "target": 49
+    },
+    {
+      "id": 1,
+      "text": "Investigate the area around the unicorns first.",
+      "target": 50
+    }
+  ]
+},
+
+{
+  "id": 25,
+  "name": "Approaching the Center of the Clearing",
+  "text": "You decide to approach the center of the clearing where the unicorns seem to be guarding something. In the middle, you find a hidden entrance to an underground chamber. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the underground chamber.",
+      "target": 51
+    },
+    {
+      "id": 1,
+      "text": "Explore the area around the entrance first.",
+      "target": 52
+    }
+  ]
+},
+
+{
+  "id": 26,
+  "name": "Exploring Surroundings Without Disturbing Unicorns",
+  "text": "You decide to explore the surroundings without disturbing the unicorns. As you wander, you stumble upon a magical artifact shimmering with untold power. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Take the magical artifact.",
+      "target": 53
+    },
+    {
+      "id": 1,
+      "text": "Leave the artifact and continue exploring.",
+      "target": 54
+    }
+  ]
+},
+
+{
+  "id": 27,
+  "name": "Choosing a Destination Through the Gateway",
+  "text": "You choose a destination and step through the magical gateway. The portal transports you to a floating island high above the ground. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Explore the floating island.",
+      "target": 55
+    },
+    {
+      "id": 1,
+      "text": "Use the gateway again to explore another part of Eldoria.",
+      "target": 56
+    }
+  ]
+},
+
+{
+  "id": 28,
+  "name": "Expressing Gratitude and Exploring Surroundings",
+  "text": "You express gratitude to the fairies and decide to explore the immediate surroundings. The path leads you to an ancient tree with glowing runes. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch the glowing runes on the ancient tree.",
+      "target": 57
+    },
+    {
+      "id": 1,
+      "text": "Continue along the path without interacting with the tree.",
+      "target": 58
+    }
+  ]
+},
+
+{
+  "id": 29,
+  "name": "Touching the Ancient Stones",
+  "text": "You decide to touch the ancient stones. As you do, a surge of ancient knowledge flows through you. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Embrace the knowledge and continue on the path.",
+      "target": 59
+    },
+    {
+      "id": 1,
+      "text": "Reflect on the newfound knowledge in the clearing.",
+      "target": 60
+    }
+  ]
+},
+
+{
+  "id": 30,
+  "name": "Circling Around the Stones",
+  "text": "You decide to circle around the ancient stones and continue exploring. The path leads you to a shimmering pool surrounded by fireflies. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the shimmering pool.",
+      "target": 61
+    },
+    {
+      "id": 1,
+      "text": "Continue on the path without approaching the pool.",
+      "target": 62
+    }
+  ]
+},
+
+{
+  "id": 31,
+  "name": "Embracing the Challenges",
+  "text": "You choose to embrace the challenges revealed in the visions and prepare for the journey. The forest path leads you to a foggy marshland. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Navigate through the foggy marshland.",
+      "target": 63
+    },
+    {
+      "id": 1,
+      "text": "Seek a higher vantage point to survey the area.",
+      "target": 64
+    }
+  ]
+},
+
+{
+  "id": 32,
+  "name": "Shaking off the Visions",
+  "text": "You decide to shake off the visions and continue exploring the grove. The path leads you to a mysterious statue with glowing eyes. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch the glowing eyes of the statue.",
+      "target": 65
+    },
+    {
+      "id": 1,
+      "text": "Observe the statue without touching it.",
+      "target": 66
+    }
+  ]
+},
+
+{
+  "id": 33,
+  "name": "Picking the Mystical Flower",
+  "text": "You choose to pick the mystical flower in the hidden grove. As you do, the flower releases a soothing aroma. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Inhale the soothing aroma deeply.",
+      "target": 67
+    },
+    {
+      "id": 1,
+      "text": "Proceed without inhaling the aroma.",
+      "target": 68
+    }
+  ]
+},
+
+{
+  "id": 34,
+  "name": "Leaving the Flower Undisturbed",
+  "text": "You decide to leave the mystical flower undisturbed and continue exploring the grove. The path leads you to a hidden pond with magical creatures. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Observe the magical creatures from a distance.",
+      "target": 69
+    },
+    {
+      "id": 1,
+      "text": "Approach the magical creatures cautiously.",
+      "target": 70
+    }
+  ]
+},
+
+{
+  "id": 35,
+  "name": "Exploring the New Area",
+  "text": "You choose to explore the new area after walking through the stone archway. The path leads you to a realm where time seems to stand still. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Investigate the time-bending properties of the area.",
+      "target": 71
+    },
+    {
+      "id": 1,
+      "text": "Continue walking in search of familiar surroundings.",
+      "target": 72
+    }
+  ]
+},
+
+{
+  "id": 36,
+  "name": "Finding Your Way Back",
+  "text": "You decide to try to find your way back to the original path after walking through the stone archway. The forest becomes more dense, and you encounter a mysterious portal. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step through the mysterious portal.",
+      "target": 73
+    },
+    {
+      "id": 1,
+      "text": "Avoid the portal and continue searching for the original path.",
+      "target": 74
+    }
+  ]
+},
+
+{
+  "id": 37,
+  "name": "Approaching the Waterfall",
+  "text": "You decide to approach the mystical waterfall. The water cascades with magical energy. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch the magical water.",
+      "target": 75
+    },
+    {
+      "id": 1,
+      "text": "Watch the waterfall without interacting.",
+      "target": 76
+    }
+  ]
+},
+
+{
+  "id": 38,
+  "name": "Continuing Without Approaching the Waterfall",
+  "text": "You choose to continue along the path without approaching the mystical waterfall. The path leads you to a bridge guarded by a wise old owl. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ask the owl for guidance.",
+      "target": 77
+    },
+    {
+      "id": 1,
+      "text": "Cross the bridge without consulting the owl.",
+      "target": 78
+    }
+  ]
+},
+{
+  "id": 39,
+  "name": "Entering the Cave",
+  "text": "You decide to enter the hidden cave with symbol-marked paths. Inside, you discover a chamber with glowing crystals. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Examine the glowing crystals.",
+      "target": 79
+    },
+    {
+      "id": 1,
+      "text": "Proceed further into the cave.",
+      "target": 80
+    }
+  ]
+},
+
+{
+  "id": 40,
+  "name": "Exploring Around the Cave Entrance",
+  "text": "You choose to explore the area around the cave entrance. The path leads you to a field of floating islands. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ascend to one of the floating islands.",
+      "target": 81
+    },
+    {
+      "id": 1,
+      "text": "Stay on the ground and explore the surroundings.",
+      "target": 82
+    }
+  ]
+},
+
+{
+  "id": 41,
+  "name": "Crossing the Bridge Carefully",
+  "text": "You decide to cross the rickety bridge carefully. As you do, the bridge collapses, leaving you on a small island. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Search for a way to another island.",
+      "target": 83
+    },
+    {
+      "id": 1,
+      "text": "Swim to the nearest shore.",
+      "target": 84
+    }
+  ]
+},
+
+{
+  "id": 42,
+  "name": "Finding an Alternative Route",
+  "text": "You choose to find an alternative route around the rickety bridge. The path leads you to a grove of singing trees. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Listen to the songs of the trees.",
+      "target": 85
+    },
+    {
+      "id": 1,
+      "text": "Bypass the grove and continue exploring.",
+      "target": 86
+    }
+  ]
+},
+
+{
+  "id": 43,
+  "name": "Exploring the Underground Passage",
+  "text": "You decide to explore the underground passage in the cave. It leads you to an ancient library filled with mystical books. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Read one of the mystical books.",
+      "target": 87
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the library.",
+      "target": 88
+    }
+  ]
+},
+
+{
+  "id": 44,
+  "name": "Exiting the Cave",
+  "text": "You decide to exit the cave and continue along the forest path. The path leads you to a crossroads guarded by a guardian spirit. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ask the guardian spirit for guidance.",
+      "target": 89
+    },
+    {
+      "id": 1,
+      "text": "Choose a path without consulting the guardian spirit.",
+      "target": 90
+    }
+  ]
+},
+
+{
+  "id": 45,
+  "name": "Approaching the Magical Pool",
+  "text": "You decide to approach the magical pool surrounded by ancient stones. The pool shows reflections of various realms. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Reach into the magical pool.",
+      "target": 91
+    },
+    {
+      "id": 1,
+      "text": "Observe the reflections without interacting.",
+      "target": 92
+    }
+  ]
+},
+
+{
+  "id": 46,
+  "name": "Circling Around the Pool",
+  "text": "You choose to circle around the magical pool and explore the surroundings. The path leads you to a forgotten temple with mysterious chants. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the forgotten temple.",
+      "target": 93
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the area without entering the temple.",
+      "target": 94
+    }
+  ]
+},
+{
+  "id": 47,
+  "name": "Approaching the Mysterious Structure",
+  "text": "You decide to approach the mysterious structure in the meadow. It appears to be an ancient observatory. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Climb to the top of the observatory.",
+      "target": 95
+    },
+    {
+      "id": 1,
+      "text": "Examine the base of the observatory first.",
+      "target": 96
+    }
+  ]
+},
+
+{
+  "id": 48,
+  "name": "Exploring the Meadow Without Approaching the Structure",
+  "text": "You choose to explore the meadow without approaching the mysterious structure. The meadow is filled with colorful flowers, and a gentle breeze carries melodious tunes. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Relax in the meadow and enjoy the tunes.",
+      "target": 97
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the meadow without resting.",
+      "target": 98
+    }
+  ]
+},
+
+{
+  "id": 49,
+  "name": "Approaching the Glowing Portal",
+  "text": "You decide to approach the glowing portal. It seems to lead to another part of Eldoria. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step through the portal.",
+      "target": 99
+    },
+    {
+      "id": 1,
+      "text": "Inspect the area around the portal before deciding.",
+      "target": 100
+    }
+  ]
+},
+
+{
+  "id": 50,
+  "name": "Investigating the Area Around the Unicorns",
+  "text": "You decide to investigate the area around the unicorns before approaching the glowing portal. The unicorns reveal a hidden passage leading to an ancient tree. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch the ancient tree.",
+      "target": 101
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without interacting with the tree.",
+      "target": 102
+    }
+  ]
+},
+
+{
+  "id": 51,
+  "name": "Entering the Underground Chamber",
+  "text": "You decide to enter the underground chamber revealed by the unicorns. It contains a magical pool with visions of Eldoria's history. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Dive into the magical pool to witness Eldoria's past.",
+      "target": 103
+    },
+    {
+      "id": 1,
+      "text": "Observe the visions without interacting with the pool.",
+      "target": 104
+    }
+  ]
+},
+
+{
+  "id": 52,
+  "name": "Exploring the Area Around the Entrance",
+  "text": "You decide to explore the area around the entrance to the underground chamber. The path leads you to a forgotten library filled with ancient scrolls. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Read one of the ancient scrolls.",
+      "target": 105
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the library without reading the scrolls.",
+      "target": 106
+    }
+  ]
+},
+
+{
+  "id": 53,
+  "name": "Taking the Magical Artifact",
+  "text": "You choose to take the magical artifact shimmering with untold power. As you hold it, you sense a surge of energy. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Harness the energy for a magical effect.",
+      "target": 107
+    },
+    {
+      "id": 1,
+      "text": "Put the artifact away and continue exploring.",
+      "target": 108
+    }
+  ]
+},
+
+{
+  "id": 54,
+  "name": "Leaving the Artifact",
+  "text": "You decide to leave the magical artifact undisturbed and continue exploring. The path leads you to a mysterious gate guarded by mythical creatures. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ask the mythical creatures for passage.",
+      "target": 109
+    },
+    {
+      "id": 1,
+      "text": "Search for an alternative route around the gate.",
+      "target": 110
+    }
+  ]
+},
+
+{
+  "id": 55,
+  "name": "Exploring the Floating Island",
+  "text": "You decide to explore the floating island you arrived at through the magical gateway. The island is home to ancient ruins and soaring creatures. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Investigate the ancient ruins.",
+      "target": 111
+    },
+    {
+      "id": 1,
+      "text": "Take flight on one of the soaring creatures.",
+      "target": 112
+    }
+  ]
+},
+
+{
+  "id": 56,
+  "name": "Using the Gateway Again",
+  "text": "You choose to use the magical gateway again to explore another part of Eldoria. The gateway presents you with choices of diverse landscapes. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Select a snowy mountain region.",
+      "target": 113
+    },
+    {
+      "id": 1,
+      "text": "Opt for a lush, enchanted forest.",
+      "target": 114
+    }
+  ]
+},
+
+{
+  "id": 57,
+  "name": "Touching the Glowing Runes",
+  "text": "You decide to touch the glowing runes on the ancient tree. As you do, the tree imparts ancient knowledge. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Use the newfound knowledge to shape reality.",
+      "target": 115
+    },
+    {
+      "id": 1,
+      "text": "Reflect on the wisdom gained before proceeding.",
+      "target": 116
+    }
+  ]
+},
+
+{
+  "id": 58,
+  "name": "Continuing Without Interacting",
+  "text": "You choose to continue along the path without interacting with the ancient tree. The path leads you to a mystical waterfall with a hidden cave behind it. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the hidden cave.",
+      "target": 117
+    },
+    {
+      "id": 1,
+      "text": "Follow the path around the waterfall.",
+      "target": 118
+    }
+  ]
+},
+
+{
+  "id": 59,
+  "name": "Embracing the Knowledge",
+  "text": "You decide to embrace the ancient knowledge gained from touching the ancient stones. The path leads you to an ancient city in ruins. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Investigate the ruins for hidden secrets.",
+      "target": 119
+    },
+    {
+      "id": 1,
+      "text": "Ascend to a vantage point to survey the city.",
+      "target": 120
+    }
+  ]
+},
+
+{
+  "id": 60,
+  "name": "Reflecting in the Clearing",
+  "text": "You choose to reflect on the newfound knowledge in the clearing with ancient stones. The stones begin to resonate, revealing a hidden passage underground. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Descend into the hidden passage.",
+      "target": 121
+    },
+    {
+      "id": 1,
+      "text": "Explore the surroundings above ground.",
+      "target": 122
+    }
+  ]
+},
+
+{
+  "id": 61,
+  "name": "Approaching the Shimmering Pool",
+  "text": "You decide to approach the shimmering pool surrounded by fireflies. The pool holds reflections of distant realms. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Dip your hand into the shimmering pool.",
+      "target": 123
+    },
+    {
+      "id": 1,
+      "text": "Observe the reflections without interacting.",
+      "target": 124
+    }
+  ]
+},
+
+{
+  "id": 62,
+  "name": "Continuing Without Approaching the Pool",
+  "text": "You choose to continue along the path without approaching the shimmering pool. The path leads you to a field of mystical flowers with healing properties. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Harvest some of the healing flowers.",
+      "target": 125
+    },
+    {
+      "id": 1,
+      "text": "Admire the flowers without picking them.",
+      "target": 126
+    }
+  ]
+}
+
+
+
+
+
+
+
+
   ]
 }
