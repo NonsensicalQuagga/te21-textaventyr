@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Wellcome [PLAYER] to Eldoria",
-      "text": "As the sun sets over the mysterious land of Eldoria, you, [Your Character Name], find yourself drawn to an ancient, hidden portal in the heart of your town. Whispers of an unimaginable adventure surround this enigmatic gateway, and the townspeople speak of untold wonders that await beyond. Curiosity takes hold, and you decide to step through the portal, uncertain of what lies ahead. The air shimmers with magic as you emerge into a realm where the rules of reality seem to bend and twist. Your most amazing adventure is about to unfold, and the secrets of Eldoria are yours to discover. What path will you choose in this realm of mystery and magic?",
+      "text": "As the sun sets over the mysterious land of Eldoria, you, [PLAYER], find yourself drawn to an ancient, hidden portal in the heart of your town. Whispers of an unimaginable adventure surround this enigmatic gateway, and the townspeople speak of untold wonders that await beyond. Curiosity takes hold, and you decide to step through the portal, uncertain of what lies ahead. The air shimmers with magic as you emerge into a realm where the rules of reality seem to bend and twist. Your most amazing adventure is about to unfold, and the secrets of Eldoria are yours to discover. What path will you choose in this realm of mystery and magic?",
       "options": [
         {
           "id": 0,
@@ -1124,7 +1124,1155 @@
       "target": 126
     }
   ]
+},
+
+{
+  "id": 63,
+  "name": "Navigating Through the Foggy Marshland",
+  "text": "You decide to navigate through the foggy marshland. The air is thick with mystical energy. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the faint lights deeper into the marsh.",
+      "target": 127
+    },
+    {
+      "id": 1,
+      "text": "Summon a magical light to guide your way.",
+      "target": 128
+    }
+  ]
+},
+
+{
+  "id": 64,
+  "name": "Seeking a Higher Vantage Point",
+  "text": "You choose to seek a higher vantage point to survey the foggy marshland. From above, you spot mysterious figures in the mist. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Descend and approach the mysterious figures.",
+      "target": 129
+    },
+    {
+      "id": 1,
+      "text": "Stay on the elevated ground and observe from afar.",
+      "target": 130
+    }
+  ]
+},
+
+{
+  "id": 65,
+  "name": "Touching the Glowing Eyes of the Statue",
+  "text": "You decide to touch the glowing eyes of the mysterious statue. A surge of ancient wisdom flows through you. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Channel the wisdom into a spell.",
+      "target": 131
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without utilizing the wisdom.",
+      "target": 132
+    }
+  ]
+},
+
+{
+  "id": 66,
+  "name": "Observing the Statue Without Touching",
+  "text": "You choose to observe the mysterious statue without touching it. The statue seems to shift its gaze, revealing a hidden passage behind it. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the hidden passage.",
+      "target": 133
+    },
+    {
+      "id": 1,
+      "text": "Bypass the passage and explore the surroundings.",
+      "target": 134
+    }
+  ]
+},
+
+{
+  "id": 67,
+  "name": "Inhaling the Soothing Aroma",
+  "text": "You decide to inhale the soothing aroma released by the mystical flower. The aroma brings a sense of calm. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Meditate and connect with the essence of the grove.",
+      "target": 135
+    },
+    {
+      "id": 1,
+      "text": "Continue without dwelling on the calming effects.",
+      "target": 136
+    }
+  ]
+},
+
+{
+  "id": 68,
+  "name": "Proceeding Without Inhaling the Aroma",
+  "text": "You choose to proceed without inhaling the soothing aroma of the mystical flower. The path leads you to a gateway covered in ancient symbols. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Decipher the symbols and activate the gateway.",
+      "target": 137
+    },
+    {
+      "id": 1,
+      "text": "Bypass the gateway and explore the area around it.",
+      "target": 138
+    }
+  ]
+},
+
+{
+  "id": 69,
+  "name": "Observing Magical Creatures from a Distance",
+  "text": "You decide to observe the magical creatures from a distance. They seem to be guardians of a hidden portal. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the magical creatures cautiously.",
+      "target": 139
+    },
+    {
+      "id": 1,
+      "text": "Search for an alternative route to the hidden portal.",
+      "target": 140
+    }
+  ]
+},
+
+{
+  "id": 70,
+  "name": "Approaching the Magical Creatures Cautiously",
+  "text": "You choose to approach the magical creatures cautiously. They offer guidance to a realm of dreams. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Accept the invitation and enter the realm of dreams.",
+      "target": 141
+    },
+    {
+      "id": 1,
+      "text": "Thank the creatures and continue exploring the grove.",
+      "target": 142
+    }
+  ]
+},
+{
+  "id": 71,
+  "name": "Investigating the Time-Bending Properties",
+  "text": "You decide to investigate the time-bending properties of the area. The path leads you to a temporal anomaly where past and future coexist. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Explore a vision from the past.",
+      "target": 143
+    },
+    {
+      "id": 1,
+      "text": "Witness a glimpse of a potential future.",
+      "target": 144
+    }
+  ]
+},
+
+{
+  "id": 72,
+  "name": "Walking in Search of Familiar Surroundings",
+  "text": "You choose to continue walking in search of familiar surroundings in the time-bending area. The path leads you to a gateway with swirling colors. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step through the colorful gateway.",
+      "target": 145
+    },
+    {
+      "id": 1,
+      "text": "Investigate the area around the gateway first.",
+      "target": 146
+    }
+  ]
+},
+
+{
+  "id": 73,
+  "name": "Stepping Through the Mysterious Portal",
+  "text": "You decide to step through the mysterious portal. It transports you to an ethereal realm where time has no meaning. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Float in the timeless realm.",
+      "target": 147
+    },
+    {
+      "id": 1,
+      "text": "Choose a specific moment to experience within the realm.",
+      "target": 148
+    }
+  ]
+},
+
+{
+  "id": 74,
+  "name": "Avoiding the Portal and Continuing the Search",
+  "text": "You choose to avoid the mysterious portal and continue searching for the original path. The forest becomes dense, and you encounter a talking tree. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Engage in conversation with the talking tree.",
+      "target": 149
+    },
+    {
+      "id": 1,
+      "text": "Bypass the talking tree and explore further.",
+      "target": 150
+    }
+  ]
+},
+
+{
+  "id": 75,
+  "name": "Touching the Magical Waterfall",
+  "text": "You decide to touch the magical waterfall. The water reacts to your touch, revealing hidden memories of Eldoria. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Immerse yourself fully in the memories.",
+      "target": 151
+    },
+    {
+      "id": 1,
+      "text": "Step back and let the memories fade.",
+      "target": 152
+    }
+  ]
+},
+
+{
+  "id": 76,
+  "name": "Watching the Waterfall Without Interacting",
+  "text": "You choose to watch the mystical waterfall without interacting. The path leads you to a talking statue at a crossroads. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ask the talking statue for directions.",
+      "target": 153
+    },
+    {
+      "id": 1,
+      "text": "Choose a path without consulting the statue.",
+      "target": 154
+    }
+  ]
+},
+
+{
+  "id": 77,
+  "name": "Asking the Owl for Guidance",
+  "text": "You decide to ask the wise old owl for guidance before crossing the bridge. The owl imparts ancient knowledge about the different realms. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the owl's suggested path.",
+      "target": 155
+    },
+    {
+      "id": 1,
+      "text": "Choose a different path based on your intuition.",
+      "target": 156
+    }
+  ]
+},
+
+{
+  "id": 78,
+  "name": "Crossing the Bridge Without Consulting the Owl",
+  "text": "You choose to cross the bridge without consulting the wise old owl. As you cross, the bridge transforms into a floating pathway. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Continue walking on the floating pathway.",
+      "target": 157
+    },
+    {
+      "id": 1,
+      "text": "Look for a way to return to solid ground.",
+      "target": 158
+    }
+  ]
+},
+{
+  "id": 79,
+  "name": "Examining the Glowing Crystals",
+  "text": "You decide to examine the glowing crystals in the hidden cave. Each crystal holds a different enchantment. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch one of the crystals to activate its enchantment.",
+      "target": 159
+    },
+    {
+      "id": 1,
+      "text": "Observe the crystals without touching them.",
+      "target": 160
+    }
+  ]
+},
+
+{
+  "id": 80,
+  "name": "Proceeding Further into the Cave",
+  "text": "You choose to proceed further into the cave. The tunnel splits into two paths—one leading up and the other down. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ascend the upward path.",
+      "target": 161
+    },
+    {
+      "id": 1,
+      "text": "Descend the downward path.",
+      "target": 162
+    }
+  ]
+},
+
+{
+  "id": 81,
+  "name": "Ascending to a Floating Island",
+  "text": "You decide to ascend to one of the floating islands in the field. The island reveals a hidden chamber with a celestial telescope. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Peer through the celestial telescope.",
+      "target": 163
+    },
+    {
+      "id": 1,
+      "text": "Explore the rest of the floating island.",
+      "target": 164
+    }
+  ]
+},
+
+{
+  "id": 82,
+  "name": "Staying on the Ground and Exploring",
+  "text": "You choose to stay on the ground and explore the surroundings of the field with floating islands. The ground begins to shake, revealing an underground cavern. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter the underground cavern.",
+      "target": 165
+    },
+    {
+      "id": 1,
+      "text": "Stay above ground and observe the cavern entrance.",
+      "target": 166
+    }
+  ]
+},
+
+{
+  "id": 83,
+  "name": "Searching for a Way to Another Island",
+  "text": "You decide to search for a way to another island after the rickety bridge collapses. A group of playful spirits offers to guide you. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the playful spirits to a new island.",
+      "target": 167
+    },
+    {
+      "id": 1,
+      "text": "Thank the spirits and explore independently.",
+      "target": 168
+    }
+  ]
+},
+
+{
+  "id": 84,
+  "name": "Swimming to the Nearest Shore",
+  "text": "You choose to swim to the nearest shore after the rickety bridge collapses. Emerging from the water, you find yourself in a bioluminescent forest. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the glowing path deeper into the forest.",
+      "target": 169
+    },
+    {
+      "id": 1,
+      "text": "Climb a tree for a better vantage point.",
+      "target": 170
+    }
+  ]
+},
+
+{
+  "id": 85,
+  "name": "Listening to the Songs of the Trees",
+  "text": "You decide to listen to the songs of the trees in the grove. The melodies carry ancient tales of Eldoria. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Join the dance of the enchanted trees.",
+      "target": 171
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without engaging with the trees.",
+      "target": 172
+    }
+  ]
+},
+
+{
+  "id": 86,
+  "name": "Bypassing the Grove and Continuing Exploring",
+  "text": "You choose to bypass the grove of singing trees and continue exploring. The path leads you to a crystal-clear lake. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Swim in the pristine waters of the lake.",
+      "target": 173
+    },
+    {
+      "id": 1,
+      "text": "Follow the path around the lake.",
+      "target": 174
+    }
+  ]
+},
+{
+  "id": 87,
+  "name": "Reading One of the Mystical Books",
+  "text": "You decide to read one of the mystical books in the ancient library. The book contains knowledge about ancient spells. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Attempt to cast one of the ancient spells.",
+      "target": 175
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the library without attempting spells.",
+      "target": 176
+    }
+  ]
+},
+
+{
+  "id": 88,
+  "name": "Continuing Exploring the Library",
+  "text": "You choose to continue exploring the ancient library without delving into the mystical books. The path leads you to a hidden chamber with a magical portal. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step through the magical portal.",
+      "target": 177
+    },
+    {
+      "id": 1,
+      "text": "Investigate the hidden chamber before deciding.",
+      "target": 178
+    }
+  ]
+},
+
+{
+  "id": 89,
+  "name": "Asking the Guardian Spirit for Guidance",
+  "text": "You decide to ask the guardian spirit at the crossroads for guidance. The spirit provides cryptic advice. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the spirit's advice and choose a specific path.",
+      "target": 179
+    },
+    {
+      "id": 1,
+      "text": "Thank the spirit and choose a path based on your intuition.",
+      "target": 180
+    }
+  ]
+},
+
+{
+  "id": 90,
+  "name": "Choosing a Path Without Consulting the Guardian Spirit",
+  "text": "You choose to ignore the guardian spirit's presence and select a path based on your intuition. The path leads you to a labyrinthine cave system. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Explore the labyrinthine caves.",
+    "target": 181
+    },
+    {
+      "id": 1,
+      "text": "Look for a way to exit the caves quickly.",
+      "target": 182
+    }
+  ]
+},
+
+{
+  "id": 91,
+  "name": "Reaching into the Magical Pool",
+  "text": "You decide to reach into the magical pool surrounded by ancient stones. As your hand touches the water, you glimpse different realms. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Dive into the pool to explore one of the realms.",
+      "target": 183
+    },
+    {
+      "id": 1,
+      "text": "Withdraw your hand and observe the reflections without fully immersing yourself.",
+      "target": 184
+    }
+  ]
+},
+
+{
+  "id": 92,
+  "name": "Observing the Reflections Without Interacting",
+  "text": "You choose to observe the reflections in the magical pool without interacting. The path leads you to a forgotten garden filled with mythical creatures. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Approach the mythical creatures and converse with them.",
+      "target": 185
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the garden without interacting with the creatures.",
+      "target": 186
+    }
+  ]
+},
+
+{
+  "id": 93,
+  "name": "Entering the Forgotten Temple",
+  "text": "You decide to enter the forgotten temple you discovered near the magical pool. The temple is filled with puzzles and ancient artifacts. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Solve one of the temple puzzles.",
+      "target": 187
+    },
+    {
+      "id": 1,
+      "text": "Explore the temple without engaging in the puzzles.",
+      "target": 188
+    }
+  ]
+},
+
+{
+  "id": 94,
+  "name": "Continuing Exploring the Area Without Entering the Temple",
+  "text": "You choose to continue exploring the area around the magical pool without entering the forgotten temple. The path leads you to a clearing with a celestial fountain. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Drink from the celestial fountain.",
+      "target": 189
+    },
+    {
+      "id": 1,
+      "text": "Observe the fountain without drinking.",
+      "target": 190
+    }
+  ]
+},
+{
+  "id": 95,
+  "name": "Climbing to the Top of the Observatory",
+  "text": "You decide to climb to the top of the ancient observatory in the meadow. From the summit, you see various landmarks in Eldoria. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Choose a specific landmark and head towards it.",
+      "target": 191
+    },
+    {
+      "id": 1,
+      "text": "Survey the entire landscape before deciding on your next move.",
+      "target": 192
+    }
+  ]
+},
+
+{
+  "id": 96,
+  "name": "Examining the Base of the Observatory",
+  "text": "You decide to examine the base of the ancient observatory. Hidden runes reveal a connection to the stars. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Activate the rune sequence to unlock a hidden passage.",
+      "target": 193
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without interacting with the runes.",
+      "target": 194
+    }
+  ]
+},
+
+{
+  "id": 97,
+  "name": "Relaxing in the Meadow and Enjoying the Tunes",
+  "text": "You choose to relax in the meadow filled with colorful flowers, enjoying the melodious tunes carried by the breeze. As you rest, a group of friendly fairies approaches. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Chat with the fairies and learn about nearby magical sites.",
+      "target": 195
+    },
+    {
+      "id": 1,
+      "text": "Express gratitude to the fairies and continue exploring independently.",
+      "target": 196
+    }
+  ]
+},
+
+{
+  "id": 98,
+  "name": "Continuing Exploring the Meadow Without Resting",
+  "text": "You choose to continue exploring the meadow without resting. The path leads you to a field of giant mushrooms. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Inspect the giant mushrooms for potential magical properties.",
+      "target": 197
+    },
+    {
+      "id": 1,
+      "text": "Bypass the mushrooms and explore the meadow further.",
+      "target": 198
+    }
+  ]
+},
+
+{
+  "id": 99,
+  "name": "Stepping Through the Glowing Portal",
+  "text": "You decide to step through the glowing portal that leads to another part of Eldoria. The portal transports you to a realm filled with floating islands. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Choose an island and fly towards it.",
+      "target": 199
+    },
+    {
+      "id": 1,
+      "text": "Survey the floating islands before deciding on your destination.",
+      "target": 200
+    }
+  ]
+},
+
+{
+  "id": 100,
+  "name": "Inspecting the Area Around the Portal",
+  "text": "You decide to inspect the area around the glowing portal before making a decision. The ground reveals ancient runes that offer glimpses into Eldoria's history. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Interact with the runes to gain insights into specific historical events.",
+      "target": 201
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without interacting with the runes.",
+      "target": 202
+    }
+  ]
+},
+
+{
+  "id": 101,
+  "name": "Touching the Ancient Tree",
+  "text": "You decide to touch the ancient tree revealed by the unicorns. As you do, the tree shares visions of Eldoria's creation. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Explore the memories further by focusing on a specific era.",
+      "target": 203
+    },
+    {
+      "id": 1,
+      "text": "Thank the tree and continue your exploration.",
+      "target": 204
+    }
+  ]
+},
+
+{
+  "id": 102,
+  "name": "Continuing Exploring Without Interacting with the Tree",
+  "text": "You choose to continue exploring without interacting with the ancient tree. The path leads you to a village of mystical beings. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Engage in conversation with the mystical beings.",
+      "target": 205
+    },
+    {
+      "id": 1,
+      "text": "Observe the village without interacting with its inhabitants.",
+      "target": 206
+    }
+  ]
+},
+{
+  "id": 103,
+  "name": "Unlocking the Secrets of the Crystal Caves",
+  "text": "You decide to unlock the secrets of the crystal caves. The caves are filled with shimmering crystals that respond to your presence. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Channel your energy to activate the crystals' magic.",
+      "target": 207
+    },
+    {
+      "id": 1,
+      "text": "Observe the crystals without attempting to activate them.",
+      "target": 208
+    }
+  ]
+},
+
+{
+  "id": 104,
+  "name": "Navigating the Subterranean River",
+  "text": "You choose to navigate the subterranean river that flows through the crystal caves. The river splits into two paths. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Take the left path.",
+      "target": 209
+    },
+    {
+      "id": 1,
+      "text": "Choose the right path.",
+      "target": 210
+    }
+  ]
+},
+
+{
+  "id": 105,
+  "name": "Communing with the Spirit of the Ancient Grove",
+  "text": "You decide to commune with the spirit residing in the heart of the ancient grove. The spirit offers guidance and reveals a hidden portal. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step through the hidden portal.",
+      "target": 211
+    },
+    {
+      "id": 1,
+      "text": "Express gratitude to the spirit and explore the grove further.",
+      "target": 212
+    }
+  ]
+},
+
+{
+  "id": 106,
+  "name": "Choosing a Path Without Consulting the Spirit",
+  "text": "You choose to ignore the presence of the spirit and select a path based on your intuition. The path leads you to a garden of time-bending flowers. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Interact with the time-bending flowers.",
+      "target": 213
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the garden without engaging with the flowers.",
+      "target": 214
+    }
+  ]
+},
+
+{
+  "id": 107,
+  "name": "Following the Guiding Lights",
+  "text": "You decide to follow the guiding lights that appear in the mystical forest. The lights lead you to a clearing where a celestial creature awaits. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Ask the celestial creature for a divine blessing.",
+      "target": 215
+    },
+    {
+      "id": 1,
+      "text": "Observe the creature without seeking its blessing.",
+      "target": 216
+    }
+  ]
+},
+
+{
+  "id": 108,
+  "name": "Avoiding the Guiding Lights and Choosing Your Own Path",
+  "text": "You choose to avoid the guiding lights and navigate the mystical forest independently. The path leads you to an ancient altar. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Offer a tribute to the ancient altar.",
+      "target": 217
+    },
+    {
+      "id": 1,
+      "text": "Inspect the altar without making an offering.",
+      "target": 218
+    }
+  ]
+},
+
+{
+  "id": 109,
+  "name": "Exploring the Underwater Cavern",
+  "text": "You decide to explore the underwater cavern revealed by the mystical waterfall. The cavern is filled with bioluminescent creatures. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Swim alongside the bioluminescent creatures.",
+      "target": 219
+    },
+    {
+      "id": 1,
+      "text": "Navigate the cavern without interacting with the creatures.",
+      "target": 220
+    }
+  ]
+},
+
+{
+  "id": 110,
+  "name": "Returning to the Portal and Choosing a New Destination",
+  "text": "You choose to return to the magical portal and select a new destination in Eldoria. The portal offers various options. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Choose a desert landscape.",
+      "target": 221
+    },
+    {
+      "id": 1,
+      "text": "Opt for an underwater realm.",
+      "target": 222
+    }
+  ]
+},
+{
+  "id": 111,
+  "name": "Speaking with the Guardian Sphinx",
+  "text": "You decide to speak with the guardian sphinx at the entrance of the ancient ruins. The sphinx challenges you with a riddle. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Attempt to solve the riddle.",
+      "target": 223
+    },
+    {
+      "id": 1,
+      "text": "Bypass the sphinx and explore the ruins without solving the riddle.",
+      "target": 224
+    }
+  ]
+},
+
+{
+  "id": 112,
+  "name": "Examining the Carvings on the Ruins",
+  "text": "You choose to examine the intricate carvings on the ancient ruins. The carvings depict a forgotten prophecy. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Delve deeper into the prophecy to gain insights.",
+      "target": 225
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without delving into the prophecy.",
+      "target": 226
+    }
+  ]
+},
+
+{
+  "id": 113,
+  "name": "Entering the Timeless Chamber",
+  "text": "You decide to enter the timeless chamber within the ruins. Time seems to stand still as you encounter echoes of past and future events. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Witness a significant event from Eldoria's history.",
+      "target": 227
+    },
+    {
+      "id": 1,
+      "text": "Explore the timeless chamber without focusing on specific events.",
+      "target": 228
+    }
+  ]
+},
+
+{
+  "id": 114,
+  "name": "Solving the Puzzles to Unlock Hidden Passages",
+  "text": "You choose to solve the puzzles scattered throughout the ruins. Successfully solving them reveals hidden passages. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Enter one of the hidden passages.",
+      "target": 229
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring the main chambers without entering the hidden passages.",
+      "target": 230
+    }
+  ]
+},
+
+{
+  "id": 115,
+  "name": "Asking the Eldritch Oracle for Guidance",
+  "text": "You decide to seek guidance from the Eldritch Oracle located in a secluded corner of the ruins. The oracle imparts cryptic advice. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Follow the oracle's guidance explicitly.",
+      "target": 231
+    },
+    {
+      "id": 1,
+      "text": "Thank the oracle and trust your instincts for the next steps.",
+      "target": 232
+    }
+  ]
+},
+
+{
+  "id": 116,
+  "name": "Choosing a Path Without Consulting the Oracle",
+  "text": "You choose to ignore the Eldritch Oracle's presence and select a path based on your intuition. The path leads you to a chamber with holographic projections. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Interact with the holographic projections to learn more about Eldoria's technology.",
+      "target": 233
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without interacting with the holographic projections.",
+      "target": 234
+    }
+  ]
+},
+
+{
+  "id": 117,
+  "name": "Listening to the Whispers of the Ancient Spirits",
+  "text": "You decide to listen to the whispers of the ancient spirits within the ruins. The spirits share tales of Eldoria's founding. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Immerse yourself in the stories to gain historical insights.",
+      "target": 235
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without dwelling on the stories.",
+      "target": 236
+    }
+  ]
+},
+
+{
+  "id": 118,
+  "name": "Navigating the Underground Catacombs",
+  "text": "You choose to navigate the underground catacombs beneath the ruins. The catacombs lead to a chamber with a mysterious artifact. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Touch the artifact to unlock its hidden powers.",
+      "target": 237
+    },
+    {
+      "id": 1,
+      "text": "Observe the artifact without attempting to activate it.",
+      "target": 238
+    }
+  ]
+},
+{
+  "id": 119,
+  "name": "Climbing to the Top of the Towering Spire",
+  "text": "You decide to climb to the top of the towering spire within the ruins. From the summit, you witness Eldoria's breathtaking landscapes. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Spot a distant landmark and aim to reach it.",
+      "target": 239
+    },
+    {
+      "id": 1,
+      "text": "Survey the surroundings for hidden secrets before deciding your next move.",
+      "target": 240
+    }
+  ]
+},
+
+{
+  "id": 120,
+  "name": "Investigating the Alchemical Laboratory",
+  "text": "You choose to investigate the alchemical laboratory hidden in the depths of the ruins. The laboratory holds mysterious potions and enchanted artifacts. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Concoct a potion using the available ingredients.",
+      "target": 241
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without interacting with the alchemical equipment.",
+      "target": 242
+    }
+  ]
+},
+
+{
+  "id": 121,
+  "name": "Navigating the Time-Warped Corridor",
+  "text": "You decide to navigate the time-warped corridor within the ruins. The corridor allows glimpses into different eras of Eldoria. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step into an era that intrigues you the most.",
+      "target": 243
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without focusing on a specific era.",
+      "target": 244
+    }
+  ]
+},
+
+{
+  "id": 122,
+  "name": "Observing the Celestial Alignments",
+  "text": "You choose to observe the celestial alignments from the astronomical terrace within the ruins. The alignments offer insights into Eldoria's cosmic connections. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Attempt to decipher the celestial messages.",
+      "target": 245
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without delving into the celestial alignments.",
+      "target": 246
+    }
+  ]
+},
+
+{
+  "id": 123,
+  "name": "Entering the Hall of Mirrors",
+  "text": "You decide to enter the hall of mirrors within the ruins. The mirrors reflect alternate realities. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Step into one of the reflected realities to experience it.",
+      "target": 247
+    },
+    {
+      "id": 1,
+      "text": "Observe the mirrored realities without actively participating.",
+      "target": 248
+    }
+  ]
+},
+
+{
+  "id": 124,
+  "name": "Engaging in a Memory-Conjuring Ritual",
+  "text": "You choose to engage in a memory-conjuring ritual in the ancient chamber. The ritual allows you to relive a significant moment from your past. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Fully immerse yourself in the conjured memory.",
+      "target": 249
+    },
+    {
+      "id": 1,
+      "text": "Step back from the ritual and continue exploring without dwelling on the past.",
+      "target": 250
+    }
+  ]
+},
+
+{
+  "id": 125,
+  "name": "Meeting the Ethereal Guardian",
+  "text": "You decide to meet the ethereal guardian in the sacred chamber. The guardian offers guidance and presents you with a choice. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Accept the guardian's quest to restore balance in Eldoria.",
+      "target": 251
+    },
+    {
+      "id": 1,
+      "text": "Express gratitude but choose your own path without committing to the guardian's quest.",
+      "target": 252
+    }
+  ]
+},
+
+{
+  "id": 126,
+  "name": "Choosing a Path Without Consulting the Guardian",
+  "text": "You choose to bypass the ethereal guardian's presence and select a path based on your intuition. The path leads you to a chamber filled with echoes of forgotten spells. Do you:",
+  "options": [
+    {
+      "id": 0,
+      "text": "Attempt to cast one of the forgotten spells.",
+      "target": 253
+    },
+    {
+      "id": 1,
+      "text": "Continue exploring without interacting with the magical echoes.",
+      "target": 254
+    }
+  ]
 }
+
+
+
 
 
 
