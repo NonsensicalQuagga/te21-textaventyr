@@ -26,4 +26,9 @@ router.get('/story/:id', function (req, res) {
   res.render('part.njk', { title: name, part: part})
 })
 
+router.get('/418', function (req, res) {
+  res.status(418).render('418.njk', {title: '418' })
+  // res.status(418)
+})
+
 module.exports = router
