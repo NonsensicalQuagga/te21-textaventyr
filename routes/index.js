@@ -20,10 +20,13 @@ router.get('/story/:id', function (req, res) {
     return
   }
 
-  const name = part.name.replace('[PLAYER]', req.session.username)
-  part = {... part, name: name}
+  let replace = part.name.replace('[PLAYER]', req.session.username)
+  part = {... part, name: replace}
 
-  res.render('part.njk', { title: name, part: part})
+  replace = part.text.replace('[PLAYER]', req.session.username)
+  part = {... part, text: replace}
+
+  res.render('part.njk', { title: part.name, part: part})
 })
 
 router.get('/418', function (req, res) {
